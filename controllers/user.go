@@ -7,5 +7,5 @@ type UserController struct {
 }
 
 func (this *UserController) ShowReg() {
-	this.TplName = " "
+	this.TplName = ""
 }
