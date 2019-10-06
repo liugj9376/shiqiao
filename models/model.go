@@ -118,7 +118,7 @@ type OrderGoods struct { //订单商品表
 
 func init() {
 	// set default database
-	orm.RegisterDataBase("default", "mysql", "root:root@tcp(127.0.0.1:3306)/shiqiao?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:liugj&LM830@tcp(192.168.181.10:3306)/shiqiao?charset=utf8")
 
 	// register model
 	orm.RegisterModel(new(User), new(Address), new(OrderGoods), new(OrderInfo), new(IndexPromotionBanner), new(IndexTypeGoodsBanner), new(IndexGoodsBanner), new(GoodsImage), new(GoodsSKU), new(GoodsType), new(Goods))
